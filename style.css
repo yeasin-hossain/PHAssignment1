@@ -3,7 +3,7 @@
     --secondaruFontColor: #fff;
     --peragraphColor:#6C6C6C;
     /* ! font color */
-    
+
     /*! Gradint credit  https://gradienta.io/*/
 
     --highlightColor:linear-gradient(40deg, #155263 9%, #155263 43%, #FF6F3C calc(43% + 1px), #FF6F3C 52%, #FF9A3C calc(52% + 1px), #FF9A3C 80%, #FFC93C calc(80% + 1px), #FFC93C 100%);
@@ -49,7 +49,7 @@ img{
     max-width: 600px;
 }
 .text-highlight{
-    color: #78f14891 !important;
+    color: #78f14891;
 }
 .btn{
     font-size: 19px;
@@ -63,7 +63,12 @@ img{
     letter-spacing: 1.5px;
     border: none;
     cursor: pointer;
+    transition: 3ms ease-out;
+    }
 
+.btn:hover {
+    padding: 20px 50px;
+    transition: 3ms ease-out;
 }
 /* ! layout */
 .container{
@@ -202,3 +207,36 @@ footer .social a img{
     margin: 0px 15px;
 }
 /* !  footer end */
+/* ! Extra */
+
+.skill {
+
+    height: 500px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.skill h2 {
+    text-decoration: underline;
+}
+
+.skill .skill-list {
+    margin-top: 50px;
+}
+
+.skill .skill-list ul {
+    display: inline;
+    /* height: 70px; */
+    min-height: 150px;
+    padding: 25px 50px;
+    float: left;
+    margin: 25px;
+    background-color: wheat;
+}
+
+.skill .skill-list ul li {
+    font-size: 21px;
+    margin: 10px 0;
+    text-align: start;
+}
