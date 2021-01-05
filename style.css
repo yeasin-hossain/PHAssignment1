@@ -72,7 +72,14 @@ img{
     cursor: pointer;
     transition: 3ms ease-out;
     }
+.text-center {
+    text-align: center;
+}
 
+.center {
+    display: block;
+    margin: auto;
+}
 .btn:hover {
     padding: 20px 50px;
     transition: 3ms ease-out;
@@ -145,8 +152,7 @@ img{
     height: 800px;
 }
 
-#recent-work h2{
-    text-align: center;
+#recent-work h2 {
     padding-bottom: 50px;
     
 }
@@ -194,8 +200,7 @@ img{
 }
 /* ! chat section end */
 
-footer{
-    text-align: center;
+footer {
     /* width: 150px;
     height: 150px; */
     display: block;
@@ -254,4 +259,14 @@ footer .social a img{
     font-size: 21px;
     margin: 10px 0;
     text-align: start;
+}
+.team .single-team {
+    width: 250px;
+    min-height: 200px;
+}
+
+.team img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
 }
