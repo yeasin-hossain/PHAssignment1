@@ -182,14 +182,16 @@ img{
     transition: 3ms ease;
 }
 /* ! end all work */
-
+#work-chat {
+    height: 400px;
+}
 .chat{
     background-image: url("images/Group_33094_1.png");
     background-repeat: no-repeat;
     width: 70%;
     height: 300px;
     display: block;
-    margin: 150px auto;
+    margin: 90px auto;
     padding: 50px;
     background-size: contain;
 }
@@ -279,8 +281,10 @@ footer .social a img{
     width: 90px;
     border-radius: 50%;
 }
-.contact {
-    /* width: 80%; */
+.single-team .social img {
+    width: 30px;
+    height: 30px;
+    margin: auto 15px;
 }
 
 .contact form {
@@ -309,6 +313,6 @@ footer .social a img{
     resize: none;
 }
 
-.contact .contact-form .contact-btn {
-    margin-top: 10px;
+.contact .contact-form button {
+    margin-top: 20px;
 }
