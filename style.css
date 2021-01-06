@@ -159,7 +159,7 @@ img{
 .all-work {
     margin-left: 50px;
 }
-.single-work{
+.single-card {
     width: 20%;
     float: left;
     min-height: 400px;
@@ -171,7 +171,7 @@ img{
     box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.75);
     transition: 3ms ease;
 }
-.single-work:hover {
+.single-card:hover {
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
     transition: 3ms ease;
 }
@@ -261,6 +261,7 @@ footer .social a img{
     margin: 10px 0;
     text-align: start;
 }
+/* ! skill end */
 .team .single-team {
     width: 250px;
     min-height: 200px;
