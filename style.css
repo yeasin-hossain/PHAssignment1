@@ -235,7 +235,8 @@ footer .social a img{
     text-align: center;
 }
 
-.skill h2 {
+.skill h2,
+.team h2 {
     text-decoration: underline;
 }
 
