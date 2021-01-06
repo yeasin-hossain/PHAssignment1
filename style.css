@@ -294,6 +294,7 @@ footer .social a img{
 }
 
 .contact .contact-form {
+    width: 350px;
     float: none;
     margin: 30px auto;
 }
