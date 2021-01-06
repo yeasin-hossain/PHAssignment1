@@ -242,7 +242,8 @@ footer .social a img{
 }
 
 .skill h2,
-.team h2 {
+.team h2,
+.contact h2 {
     text-decoration: underline;
 }
 
@@ -277,4 +278,37 @@ footer .social a img{
     height: 90px;
     width: 90px;
     border-radius: 50%;
+}
+.contact {
+    /* width: 80%; */
+}
+
+.contact form {
+    display: block;
+    margin: auto;
+    /* width: 20%; */
+}
+
+.contact .contact-form {
+    float: none;
+    margin: 30px auto;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 5px;
+    outline: none;
+    color: #363958;
+    font-size: 18px;
+    font-weight: 600;
+    resize: none;
+}
+
+.contact .contact-form .contact-btn {
+    margin-top: 10px;
 }
