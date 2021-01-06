@@ -71,7 +71,7 @@ img{
     border: none;
     cursor: pointer;
     transition: 3ms ease-out;
-    }
+}
 .text-center {
     text-align: center;
 }
@@ -137,10 +137,12 @@ img{
 .hero-section .text-part p{
     text-transform: capitalize
 }
+.image-part {
+    margin-left: 30px;
+}
 .about-text {
     margin-top: 100px;
     margin-left: 50px;
-    
 }
 /* font aswesome icon */
 .about-text svg{
